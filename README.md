@@ -1,6 +1,6 @@
 # Facebook-clone
 Facebook-Clone With React & Firebase
-Technologi Used
+Technology Used
 React
 Firebase
 Redux & Thunk
