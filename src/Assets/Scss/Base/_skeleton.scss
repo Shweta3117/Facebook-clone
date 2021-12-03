@@ -1,0 +1,39 @@
+#skeleton.card {
+  @include CardStyle(none);
+  transition: .5s ease-in-out;
+  .Skeleton-Header {
+    @include FlexBox(inline-flex, center, flex-start)
+  }
+  &::after {
+    transition: 5s ease-in-out;
+  }
+}
+
+// Base style Skeleton
+.Skeleton {
+  background: $bgGreyPrimary;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+// Skeleton Text
+.Skeleton.text {
+  width: 90%;
+  height: 15px;
+}
+
+// Skeleton Title
+.Skeleton.title {
+  width: 200px;
+  height: 15px;
+  &:nth-child(2) {
+    width: 150px;
+  }
+}
+
+// Skeleton Image / Hero
+.Skeleton.hero-40 {
+  width: 40px;
+  border-radius: 45%;
+  height: 40px;
+}
