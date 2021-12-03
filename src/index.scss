@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import './Assets/Scss/Base/variable';
+@import './Assets/Scss/Base/global';
+@import './Assets/Scss/Base/mixin';
+@import './Assets/Scss/Base/customClass';
+@import './Assets/Scss/Base/skeleton';
+@import './Assets/Scss/Base/loadingAnimation';
+
+@import './Assets/Scss/Component/LoginPage/Login';
+@import './Assets/Scss/Component/Navigation/Navbar';
+@import './Assets/Scss/Component/Dashboard/Template';
+@import './Assets/Scss/Component/Profile/Profile';
